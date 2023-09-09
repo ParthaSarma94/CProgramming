@@ -44,4 +44,4 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-//thank you very mych
+//thank you very much
