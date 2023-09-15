@@ -1,3 +1,6 @@
+/*finding largest and smallest number from 3 
+    numbers that are given as input.*/
+
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
