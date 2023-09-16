@@ -3,20 +3,20 @@
 
 #include <stdio.h>
 
-void calPrice(float value);
+void calPrice(float price);
 
 int main(int argc, char const *argv[])
 {
-    float value;
+    float price;
     puts("Enter price");
-    scanf("%f",&value);
-    calPrice(value);
+    scanf("%f",&price);
+    calPrice(price);
     return 0;
 }
 
-void calPrice(float value){
+void calPrice(float price){
 
  //includes 18% GST
-value += (0.18 * value);   
-printf("Final price : %f\n",value);
+price += (0.18 * price);   
+printf("Final price : %f\n",price);
 }
